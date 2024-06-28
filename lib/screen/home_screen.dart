@@ -13,56 +13,38 @@ class HomeScreen extends StatelessWidget {
       body: Stack(
         children: [
           Positioned.fill(
-            child: ShaderMask(
-              blendMode: BlendMode.dstOut,
-              shaderCallback: (rect) {
-                return LinearGradient(
-                  begin: Alignment.topCenter,
-                  end: Alignment.bottomCenter,
-                  colors: [
-                    Colors.transparent,
-                    // Colors.transparent,
-                    Colors.black.withOpacity(0.4),
-                    Colors.black.withOpacity(0.8),
-                    Colors.black.withOpacity(0.9),
-                    Colors.black,
-                  ],
-                  stops: const [0, 0.62, 0.67, 0.85, 1],
-                ).createShader(rect);
-              },
-              child: SingleChildScrollView(
-                child: Column(
-                  children: [
-                    SizedBox(
-                      height: 50,
-                    ),
-                    ImageListView(
-                      duration: 30,
-                      startIndex: 1,
-                    ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    ImageListView(
-                      duration: 40,
-                      startIndex: 11,
-                    ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    ImageListView(
-                      duration: 60,
-                      startIndex: 21,
-                    ),
-                    SizedBox(
-                      height: 10,
-                    ),
-                    ImageListView(
-                      duration: 30,
-                      startIndex: 31,
-                    ),
-                  ],
-                ),
+            child: SingleChildScrollView(
+              child: Column(
+                children: [
+                  SizedBox(
+                    height: 50,
+                  ),
+                  ImageListView(
+                    duration: 30,
+                    startIndex: 1,
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  ImageListView(
+                    duration: 40,
+                    startIndex: 11,
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  ImageListView(
+                    duration: 60,
+                    startIndex: 21,
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  ImageListView(
+                    duration: 30,
+                    startIndex: 31,
+                  ),
+                ],
               ),
             ),
           ),
