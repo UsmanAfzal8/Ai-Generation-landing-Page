@@ -1,16 +1,31 @@
-# ai_generation_app
+# Landing Page of AI Generation
 
-A new Flutter project.
+This project is a Flutter-based landing page showcasing multiple AI-generated arts, all of which are animated to create a dynamic and engaging user experience.
+
+## Project Overview
+
+This landing page demonstrates the capabilities of AI-generated art. The page features several pieces of AI art, each with its unique animation to make the page more interactive and visually appealing.
+
+![Project Photo](assets/image/landing_page.png)
+
+## Video Demonstration
+
+For a quick overview of the project, watch the [video demonstration on YouTube](https://www.youtube.com/watch?v=NIzC86TIgn4&t=1s).
+
+## Features
+
+- **Animated AI Arts**: Each piece of AI art on the landing page is animated to provide a dynamic user experience.
+- **Responsive Design**: The landing page is designed to be responsive, ensuring it looks great on both mobile and desktop devices.
+- **Clean and Modern UI**: The user interface is designed to be clean, modern, and easy to navigate.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter](https://flutter.dev/docs/get-started/install) should be installed on your machine.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/UsmanAfzal8/Ai-Generation-landing-Page.git
