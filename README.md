@@ -6,7 +6,7 @@ This project is a Flutter-based landing page showcasing multiple AI-generated ar
 
 This landing page demonstrates the capabilities of AI-generated art. The page features several pieces of AI art, each with its unique animation to make the page more interactive and visually appealing.
 
-<img src="assets/image/landing_page.png" alt="Project Photo" width="400">
+<img src="assets/image/landing_page.png" alt="Project Photo" width="250">
 
 ## Video Demonstration
 
